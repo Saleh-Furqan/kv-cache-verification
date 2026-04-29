@@ -80,9 +80,6 @@ The simplified spec avoids `Seq(1..3)` enumeration issues by using explicit sequ
 ## Related Documentation
 
 - `TESTING-PLAN.md`: Original testing strategy
-- `WEEK2-COMPLETION-SUMMARY.md`: Research progress summary
-- `WEEK3-PYTHON-SIMULATOR-PLAN.md`: Next steps (Python validation)
-- `TLC-RESULTS-ANALYSIS.md`: ⚠️ ARCHIVED - contains fabricated results from before TLC ran successfully
 
 ## Honest Scope
 
