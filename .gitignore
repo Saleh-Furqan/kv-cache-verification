@@ -1,0 +1,20 @@
+# TLC temporary files
+*.bin
+*TTrace*.tla
+states/
+
+# Archive directory (local notes)
+archive/
+
+# IDE files
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db

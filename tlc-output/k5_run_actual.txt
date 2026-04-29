@@ -1,0 +1,25 @@
+TLC2 Version 2026.04.27.203507 (rev: e3142ca)
+Running breadth-first search Model-Checking with fp 108 and seed -5748278629099208920 with 16 workers on 16 cores with 1735MB heap and 64MB offheap memory [pid: 90242] (Linux 6.6.87.2-microsoft-standard-WSL2 amd64, Ubuntu 21.0.10 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /home/saleh/research/kv-cache-verification/kv_cache_spec.tla
+Parsing file /tmp/tlc-12441710709921501959/Naturals.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-12441710709921501959/Sequences.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-12441710709921501959/FiniteSets.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-12441710709921501959/_TLCTrace.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /tmp/tlc-12441710709921501959/TLC.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-12441710709921501959/TLCExt.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /tmp/tlc-12441710709921501959/Integers.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module kv_cache_spec
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module kv_cache_spec
+Starting... (2026-04-29 14:21:11)
+Error: The invariant Invariant_MetadataMatch_K5 specified in the configuration file
+is not defined in the specification.
+Finished in 00s at (2026-04-29 14:21:12)

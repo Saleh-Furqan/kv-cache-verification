@@ -1,0 +1,55 @@
+TLC2 Version 2026.04.27.203507 (rev: e3142ca)
+Running breadth-first search Model-Checking with fp 112 and seed -1030488914005422337 with 2 workers on 16 cores with 910MB heap and 64MB offheap memory [pid: 96807] (Linux 6.6.87.2-microsoft-standard-WSL2 amd64, Ubuntu 21.0.10 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /home/saleh/research/kv-cache-verification/kv_cache_simple.tla
+Parsing file /tmp/tlc-260620121112454021/Naturals.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-260620121112454021/Sequences.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-260620121112454021/FiniteSets.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-260620121112454021/_TLCTrace.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /tmp/tlc-260620121112454021/TLC.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-260620121112454021/TLCExt.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /tmp/tlc-260620121112454021/Integers.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module kv_cache_simple
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module kv_cache_simple
+Starting... (2026-04-29 14:30:46)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-04-29 14:30:46.
+Error: Invariant ViolationK1 is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ violations = {}
+/\ cache_blocks = {}
+
+State 2: <AddBlock line 67, col 5 to line 73, col 27 of module kv_cache_simple>
+/\ violations = {}
+/\ cache_blocks = { [ tokens |-> <<>>,
+    model |-> GPT4,
+    adapter |-> None,
+    tenant |-> Tenant1,
+    image |-> "NoImage" ] }
+
+State 3: <AddBlock line 67, col 5 to line 73, col 27 of module kv_cache_simple>
+/\ violations = {}
+/\ cache_blocks = { [ tokens |-> <<>>,
+    model |-> GPT4,
+    adapter |-> None,
+    tenant |-> Tenant1,
+    image |-> "NoImage" ],
+  [ tokens |-> <<>>,
+    model |-> GPT4,
+    adapter |-> LoRA1,
+    tenant |-> Tenant1,
+    image |-> "NoImage" ] }
+
+84 states generated, 81 distinct states found, 76 states left on queue.
+The depth of the complete state graph search is 3.
+Finished in 00s at (2026-04-29 14:30:46)
+Trace exploration spec path: ./kv_cache_simple_TTrace_1777458645.tla

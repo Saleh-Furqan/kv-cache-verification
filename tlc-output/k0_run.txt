@@ -1,0 +1,24 @@
+TLC2 Version 2026.04.27.203507 (rev: e3142ca)
+Running breadth-first search Model-Checking with fp 73 and seed 4446062658821717400 with 4 workers on 16 cores with 1820MB heap and 64MB offheap memory [pid: 93692] (Linux 6.6.87.2-microsoft-standard-WSL2 amd64, Ubuntu 21.0.10 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /home/saleh/research/kv-cache-verification/kv_cache_spec.tla
+Parsing file /tmp/tlc-7475989083964641564/Naturals.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-7475989083964641564/Sequences.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-7475989083964641564/FiniteSets.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-7475989083964641564/_TLCTrace.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /tmp/tlc-7475989083964641564/TLC.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-7475989083964641564/TLCExt.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /tmp/tlc-7475989083964641564/Integers.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module kv_cache_spec
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module kv_cache_spec
+Starting... (2026-04-29 14:26:25)
+Error: Assumption line 30, col 3 to line 35, col 24 of module kv_cache_spec is false.
+Finished in 00s at (2026-04-29 14:26:25)

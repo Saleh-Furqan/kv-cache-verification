@@ -1,0 +1,41 @@
+TLC2 Version 2026.04.27.203507 (rev: e3142ca)
+Running breadth-first search Model-Checking with fp 41 and seed -167080127088171317 with 4 workers on 16 cores with 1820MB heap and 64MB offheap memory [pid: 90937] (Linux 6.6.87.2-microsoft-standard-WSL2 amd64, Ubuntu 21.0.10 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /home/saleh/research/kv-cache-verification/kv_cache_spec.tla
+Parsing file /tmp/tlc-11766376023752534068/Naturals.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-11766376023752534068/Sequences.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-11766376023752534068/FiniteSets.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-11766376023752534068/_TLCTrace.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /tmp/tlc-11766376023752534068/TLC.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-11766376023752534068/TLCExt.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /tmp/tlc-11766376023752534068/Integers.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module kv_cache_spec
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module kv_cache_spec
+Starting... (2026-04-29 14:22:08)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-04-29 14:22:08.
+Error: Successor state is not completely specified by action StartGenerateK5 of the next-state relation. The following variable is not defined: pc.
+
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ requests = <<[token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", multimodal_hash |-> "NoImage", request_id |-> 1, tenant_id |-> "Tenant1", status |-> "waiting"], [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", multimodal_hash |-> "NoImage", request_id |-> 2, tenant_id |-> "Tenant1", status |-> "waiting"]>>
+/\ pc = <<"start", "start">>
+/\ cache = <<[key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 0, valid |-> FALSE], [key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 0, valid |-> FALSE], [key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 0, valid |-> FALSE], [key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 0, valid |-> FALSE], [key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 0, valid |-> FALSE], [key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 0, valid |-> FALSE]>>
+
+State 2: <StartGenerateK5(1) line 367, col 3 to line 378, col 71 of module kv_cache_spec>
+/\ requests = <<[token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", multimodal_hash |-> "NoImage", request_id |-> 1, tenant_id |-> "Tenant1", status |-> "generating"], [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", multimodal_hash |-> "NoImage", request_id |-> 2, tenant_id |-> "Tenant1", status |-> "waiting"]>>
+/\ pc = null
+/\ cache = <<[key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 1, valid |-> TRUE], [key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 0, valid |-> FALSE], [key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 0, valid |-> FALSE], [key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 0, valid |-> FALSE], [key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 0, valid |-> FALSE], [key |-> [token_prefix |-> <<>>, model_id |-> "GPT4", model_version |-> 1, adapter_id |-> "None", tenant_salt |-> "Tenant1", multimodal_hash |-> "NoImage"], ref_count |-> 0, valid |-> FALSE]>>
+
+2 states generated, 1 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 1.
+Finished in 00s at (2026-04-29 14:22:08)
+Trace exploration spec path: ./kv_cache_spec_TTrace_1777458127.tla

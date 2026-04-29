@@ -1,0 +1,32 @@
+TLC2 Version 2026.04.27.203507 (rev: e3142ca)
+Warning: Please run the Java VM, which executes TLC with a throughput optimized garbage collector, by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 61 and seed -568147969090095868 with 1 worker on 16 cores with 4028MB heap and 64MB offheap memory [pid: 59128] (Windows 11 10.0 amd64, Oracle Corporation 25 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file \\wsl.localhost\Ubuntu\home\saleh\research\kv-cache-verification\kv-cache-spec.tla (file:////wsl.localhost/Ubuntu/home/saleh/research/kv-cache-verification/kv-cache-spec.tla)
+***Parse Error***
+Encountered "requests" at line 445, column 34 and token "neq" 
+
+Residual stack trace follows:
+ExtendableExpr starting at line 445, column 5.
+Expression starting at line 445, column 5.
+Quantified form starting at line 444, column 3.
+Expression starting at line 444, column 3.
+Definition starting at line 443, column 1.
+
+
+Fatal errors while parsing TLA+ spec in file kv-cache-spec
+
+In module kv-cache-spec
+
+Could not parse module kv-cache-spec from file kv-cache-spec.tla
+*** Errors: 1
+
+In module kv-cache-spec
+
+Could not parse module kv-cache-spec from file kv-cache-spec.tla
+
+
+
+Starting... (2026-04-29 14:08:48)
+Error: Parsing or semantic analysis failed.
+Finished in 00s at (2026-04-29 14:08:48)

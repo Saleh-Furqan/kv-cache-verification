@@ -1,0 +1,6 @@
+========================================
+K0 Test Results
+========================================
+Error: Invariant ViolationK0 is violated.
+76 generated, distinct found,
+

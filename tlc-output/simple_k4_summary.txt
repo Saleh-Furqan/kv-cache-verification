@@ -1,0 +1,6 @@
+========================================
+K4 Test Results
+========================================
+Error: Invariant ViolationK4 is violated.
+203 generated, distinct found,
+

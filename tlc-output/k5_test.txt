@@ -1,0 +1,87 @@
+TLC2 Version 2026.04.27.203507 (rev: e3142ca)
+Running breadth-first search Model-Checking with fp 36 and seed -1230880618596415788 with 1 worker on 16 cores with 1735MB heap and 64MB offheap memory [pid: 90019] (Linux 6.6.87.2-microsoft-standard-WSL2 amd64, Ubuntu 21.0.10 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /home/saleh/research/kv-cache-verification/kv_cache_spec.tla
+Parsing file /tmp/tlc-11451409022150462882/Naturals.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-11451409022150462882/Sequences.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-11451409022150462882/FiniteSets.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-11451409022150462882/_TLCTrace.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /tmp/tlc-11451409022150462882/TLC.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-11451409022150462882/TLCExt.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /tmp/tlc-11451409022150462882/Integers.tla (jar:file:/home/saleh/research/kv-cache-verification/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module kv_cache_spec
+Semantic errors:
+
+*** Errors: 24
+
+line 203, col 28 to line 203, col 28 of module kv_cache_spec
+
+Could not find declaration or definition of symbol '-.'.
+
+
+line 203, col 28 to line 203, col 29 of module kv_cache_spec
+
+Couldn't resolve prefix operator symbol `-.'.
+
+
+line 209, col 28 to line 209, col 28 of module kv_cache_spec
+
+Could not find declaration or definition of symbol '-.'.
+
+
+line 209, col 28 to line 209, col 29 of module kv_cache_spec
+
+Couldn't resolve prefix operator symbol `-.'.
+
+
+line 215, col 28 to line 215, col 28 of module kv_cache_spec
+
+Could not find declaration or definition of symbol '-.'.
+
+
+line 215, col 28 to line 215, col 29 of module kv_cache_spec
+
+Couldn't resolve prefix operator symbol `-.'.
+
+
+line 221, col 28 to line 221, col 28 of module kv_cache_spec
+
+Could not find declaration or definition of symbol '-.'.
+
+
+line 221, col 28 to line 221, col 29 of module kv_cache_spec
+
+Couldn't resolve prefix operator symbol `-.'.
+
+
+line 227, col 28 to line 227, col 28 of module kv_cache_spec
+
+Could not find declaration or definition of symbol '-.'.
+
+
+line 227, col 28 to line 227, col 29 of module kv_cache_spec
+
+Couldn't resolve prefix operator symbol `-.'.
+
+
+line 233, col 28 to line 233, col 28 of module kv_cache_spec
+
+Could not find declaration or definition of symbol '-.'.
+
+
+line 233, col 28 to line 233, col 29 of module kv_cache_spec
+
+Couldn't resolve prefix operator symbol `-.'.
+
+
+line 297, col 28 to line 297, col 28 of module kv_cache_spec
+
+Could not find declaration or definition of symbol '-.'.
+
+

@@ -1,0 +1,6 @@
+========================================
+K5 Test Results
+========================================
+Model checking completed. No error has been found.
+133185 states generated, 2081 distinct states found, 0 states left on queue.
+
